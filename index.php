@@ -14,6 +14,11 @@
     <!-- Material Design Bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
 
+    <style>
+        .btn{
+            margin:0;
+        }
+    </style>
 
 </head>
 <body>
@@ -108,8 +113,28 @@
             </div>
         </div>
     </div>
-
+<!-- About us-->
     <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 py-5">
+                    <h2 class="font-weight-bold">About<br> School Management System</h2>
+                    <div class="pr-5">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,</p>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,</p>
+                    </div>
+                    <a href="about-us-php" class="btn btn-dark">Know More</a>
+                </div>
+                <div class="col-lg-6" style="background:url(./images/school.jpg)">
+                    <img src="./images/school.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!--Our Courses-->
+    <section class="py-5 bg-light">
         <div class="text-center">
             <h2 class="font-weight-bold">Our Courses</h2>
             <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -225,7 +250,8 @@
         </div>
     </section>
 
-    <section class="py-5 bg-light">
+<!--Teachers-->
+    <section class="py-5">
             <div class="text-center">
                 <h2 class="font-weight-bold">Our Teachers</h2>
                 <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -259,6 +285,133 @@
                     <?php } ?>
                 </div>
             </div>
+    </section>
+    
+<!--Achievment-->
+    <section class="py-5" style="background:#9da8c7">
+        <div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 pr-5">
+                        <h2 class="font-weight-bold">Achievments</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                        <img src="./images/school.jpg" alt="" class="img-fluid rounded"> 
+                    </div>
+                    <div class="col-lg-6 my-auto">
+                        <div class="row">
+                            <div class="col-lg-6 mb-4">
+                                <div class="card border-rounded">
+                                    <div class="card-body text-center">
+                                        <span><i class="fa fa-graduation-cap fa-2x"></i></span>
+                                        <h2 class="my-2 font-weight-bold h1">334</h2>
+                                        <hr class="border-dark">
+                                        <h4>Graduates</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 mb-4">
+                                <div class="card border-rounded">
+                                    <div class="card-body text-center">
+                                        <span><i class="fa fa-graduation-cap fa-2x"></i></span>
+                                        <h2 class="my-2 font-weight-bold h1">334</h2>
+                                        <hr class="border-dark">
+                                        <h4>Graduates</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 mb-4">
+                                <div class="card border-rounded">
+                                    <div class="card-body text-center">
+                                        <span><i class="fa fa-graduation-cap fa-2x"></i></span>
+                                        <h2 class="my-2 font-weight-bold h1">334</h2>
+                                        <hr class="border-dark">
+                                        <h4>Graduates</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 mb-4">
+                                <div class="card border-rounded">
+                                    <div class="card-body text-center">
+                                        <span><i class="fa fa-graduation-cap fa-2x"></i></span>
+                                        <h2 class="my-2 font-weight-bold h1">334</h2>
+                                        <hr class="border-dark">
+                                        <h4>Graduates</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+<!--testimonials-->
+    <section class="py-5" >
+        <div class="text-center mb-5">
+            <h2 class="font-weight-bold">What People Says</h2>
+            <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div>
+        <div class="container">
+           <div class="row">
+                <div class="col-6">
+                     <div class="border rounded position-relative">
+                        <div class="p-4 text-center">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting indust 
+                        </div>
+                        <i class="fa fa-quote-left fa-3x position-absolute" style="top:.5rem; left:.5rem; opacity:.2"></i>
+                    </div>
+                     <div class="text-center mt-n2">
+                            <img src="./images/placeholder.png" alt="" class="rounded-circle border" width="100" height="100">
+                            <h6 class="mb-0 font-weight-bold">Name Of Candidates</h6>
+                            <p><i>Designation</p></i> 
+                        </div>
+                </div>
+                <div class="col-6">
+                <div class="border rounded position-relative">
+                    <div class="p-4 text-center">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting indust 
+                    </div>
+                        <i class="fa fa-quote-left fa-3x position-absolute" style="top:.5rem; left:.5rem; opacity:.2"></i>
+                    </div>
+                    <div class="text-center mt-n2">
+                        <img src="./images/placeholder.png" alt="" class="rounded-circle border" width="100" height="100">
+                        <h6 class="mb-0 font-weight-bold">Name Of Candidates</h6>
+                        <p><i>Designation</p></i> 
+                </div>
+           </div>
+           <div class="col-6">
+                <div class="border rounded position-relative">
+                    <div class="p-4 text-center">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting indust 
+                    </div>
+                        <i class="fa fa-quote-left fa-3x position-absolute" style="top:.5rem; left:.5rem; opacity:.2"></i>
+                    </div>
+                    <div class="text-center mt-n2">
+                        <img src="./images/placeholder.png" alt="" class="rounded-circle border" width="100" height="100">
+                        <h6 class="mb-0 font-weight-bold">Name Of Candidates</h6>
+                        <p><i>Designation</p></i> 
+                </div>
+           </div>
+           <div class="col-6">
+                <div class="border rounded position-relative">
+                    <div class="p-4 text-center">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting indust 
+                    </div>
+                        <i class="fa fa-quote-left fa-3x position-absolute" style="top:.5rem; left:.5rem; opacity:.2"></i>
+                    </div>
+                    <div class="text-center mt-n2">
+                        <img src="./images/placeholder.png" alt="" class="rounded-circle border" width="100" height="100">
+                        <h6 class="mb-0 font-weight-bold">Name Of Candidates</h6>
+                        <p><i>Designation</p></i> 
+                </div>
+           </div>
+           </div>
+           
+        </div>
+            
     </section>
 
     <!-- JQuery -->
