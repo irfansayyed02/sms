@@ -414,6 +414,65 @@
             
     </section>
 
+<!--footer-->
+    <footer style="background:url(./images/school.jpg) center/cover no-repeat">
+        <div class="py-5 text-white" style="background:#00000088">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <h5>Useful links</h5>
+
+                        <ul class="fa-ul ml-4">
+                            <li><a href="" class="text-light"><i class="fa-li fa fa-angle-right"></i>List icons</a></li>
+                            <li><a href="" class="text-light"><i class="fa-li fa fa-angle-right"></i>can be used</a></li>
+                            <li><a href="" class="text-light"><i class="fa-li fa fa-angle-right"></i>as bullets</a></li>
+                            <li><a href="" class="text-light"><i class="fa-li fa fa-angle-right"></i>in lists</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="col-lg-4">
+                        <h5>Useful links</h5>
+                            <div>
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-facebook-f fa-stack-1x fa-inverse text-dark"></i>
+                                </span>
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-instagram fa-stack-1x fa-inverse text-dark"></i>
+                                </span>
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-twitter fa-stack-1x fa-inverse text-dark"></i>
+                                </span>
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-youtube fa-stack-1x fa-inverse text-dark"></i>
+                                </span>
+
+                            </div>
+                        
+                    </div>
+                    <div class="col-lg-3">
+                        <h5>Suscribe Now</h5>
+                        <form action="">
+                            <!-- Material input -->
+                            <div class="form-group">
+                                <input type="email" id="email-s" class="form-control" placeholder="Your Email">
+                            </div>
+                            <button class="btn btn-secondary btn-sm btn-secondary">submit</button> 
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <section class="py-2 bg-dark text-light">
+        <div class="container-fluid">
+        Copyright all right reserved. <a href="" class="text-light">school management system</a> 
+        </div>
+    </section>
+
     <!-- JQuery -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Bootstrap tooltips -->
