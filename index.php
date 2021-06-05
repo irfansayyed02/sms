@@ -57,7 +57,7 @@
         <div class="container-fluid my-auto">
             <div class="row">
                 <div class="col-lg-6 my-auto">
-                    <h1 class="display-2 font-weight-bold">School Management System</h1>
+                    <h3 class="display-2 font-weight-bold">Admission Open for 2021-2022</h3>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                     <a href="" class="btn btn-lg btn-dark">call to action</a>
                 </div>

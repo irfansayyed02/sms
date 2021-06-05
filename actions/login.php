@@ -1,16 +1,15 @@
 <?php
-if(isset($_POST['login'])) {
+if (isset($_POST['login'])) {
     $email = $_POST['email'];
-    $password = $_POST['password'];
+    $pass = $_POST['password'];
 
-    if($email == 'admin@example.com' && $password == 'admin@sms'){
+    if ($email == 'admin@example.com' && $pass == 'admin@sms') {
         session_start();
-        $_SESSION['login'] = true;
-        header('Location: ../index.php');
+       $_SESSION['login'] = true;
+       header('Location: ../admin//dashboard.php');
     }
     else {
-        echo '<script>alert("Invalid Credential"); window.history.back();</script>';
+        echo 'Invalid Credential';
     }
-
 }
 ?>
